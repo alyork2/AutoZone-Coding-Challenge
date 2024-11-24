@@ -1,9 +1,18 @@
+/*
+This is the container for the entire return segment of the code in app.jsx.
+I used it to center the dropdowns and make everything side by side.
+*/
+
 .container {
     align-content: center;
     justify-content: center;
     display: flex;
     padding-bottom: 500px;
 }
+
+/*
+    This class was for the formatting for the text to the left of the dropdowns.
+*/
 
 .text-container {
     text-align: center;
@@ -12,13 +21,26 @@
     margin-left: 250px;
 }
 
+/*
+This class was for the formatting for the top line of text
+*/
+
 h1 {
     font-size: 12px;
 }
 
+/*
+This class was for the formatting for the bottom line of text
+*/
+
 h2 {
     font-size: 10px; 
 }
+
+/*
+This class was for the formatting for the dropdown. I used this to set the padding for the 
+dropdowns, as well as alignment
+*/
 
 .dropdown-container {
     display: flex;
@@ -28,9 +50,18 @@ h2 {
     background-color: whitesmoke;
 }
 
+/*
+This class was for the display of the items in the dropdown
+*/
+
 .dropdown-row {
     display: flex;
 }
+
+/*
+This class was used to edit the styling for select. I adjusted the alignment as
+well as sizing of the dropdown boxes and font.
+*/
 
 select {
     width: 200px;
@@ -41,6 +72,10 @@ select {
     border-bottom-color: orangered;
     border-bottom-width: 2px;
 }
+
+/*
+This class was used to edit the font size of the dropdown labels
+*/
 
 .dropdown-row label {
     font-size: 14px; 
