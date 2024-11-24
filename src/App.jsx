@@ -125,7 +125,8 @@ function App() {
                         id="model-select"
                         value={selectedModel}
                         onChange={(changeModel) => setSelectedModel(changeModel.target.value)}
-                        disabled={!selectedMake}
+                        disabled={!selectedMake || !selectedYear}
+                        
                     >
                         <option value="">3 | Model</option>
                         {model.map((ml) => (
